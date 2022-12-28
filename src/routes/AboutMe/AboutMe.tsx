@@ -20,10 +20,10 @@ export const AboutMe: React.FC = () => {
   return (
     <CodeLikeBlock>
       <L>
-        <Kw>Hi</Kw>, my name is <Sl>Alex</Sl>!
+        <Kw>Hi</Kw>, my name is <Sl>Lakshay</Sl>!
       </L>
       <L>
-        <Kw>I am</Kw> a <Fn>full-stack web developer</Fn>.
+        <Kw>Currently, I am</Kw> a <Fn>Product Manager at Microsoft</Fn>.
       </L>
       <L active git="green">
         <IfHirable>
