@@ -1,15 +1,15 @@
 {
-  "name": "alexeychikk.github.io",
+  "name": "lakshaynagpal.github.io",
   "version": "1.0.0",
   "description": "A website showcasing my skills and experience",
-  "homepage": "http://alexeychikk.github.io",
+  "homepage": "http://lakshaynagpal.github.io",
   "repository": {
-    "url": "https://github.com/alexeychikk/alexeychikk.github.io"
+    "url": "https://github.com/LakshayNagpal/lakshaynagpal.github.io"
   },
   "author": {
-    "email": "alexdarkmm@gmail.com",
-    "name": "Alex Zinkevych",
-    "url": "http://alexeychikk.github.io"
+    "email": "k72.lakshay@gmail.com",
+    "name": "Lakshay Nagpal",
+    "url": "http://lakshaynagpal.github.io"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
