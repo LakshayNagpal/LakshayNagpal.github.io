@@ -43,11 +43,12 @@ export const AboutMe: React.FC = () => {
 
       <L>
         <Kw>I love</Kw> to write <Vn>clean</Vn>, <Vn>readable</Vn> and{" "}
-        <Vn>maintainable</Vn> <Fn>code</Fn>.
+        <Vn>self explanatory</Vn> <Fn>Product Requirement Documents (PRDs)</Fn>.
       </L>
       <L>
-        <Kw>My</Kw> main <Fn>stack</Fn> is: <Vn>JavaScript / TypeScript</Vn>,{" "}
-        <Vn>React</Vn>, <Vn>Node.js</Vn> and <Vn>MongoDB</Vn>.
+        <Kw>My</Kw> strong <Fn>area in PM</Fn> is:{" "}
+        <Vn>Problem Identification</Vn>, <Vn>Prototyping</Vn>, <Vn>Research</Vn>{" "}
+        and <Vn>Data Analysis</Vn>.
       </L>
 
       <Br />
@@ -79,11 +80,12 @@ export const AboutMe: React.FC = () => {
 
       <L git="blue">
         <Kw>But one day</Kw>, all the cool guys started talking about{" "}
-        <Fn>JS</Fn> and how <Vn>awesome</Vn> and <Vn>powerful</Vn> it is.
+        <Fn>Product Management</Fn> and how <Vn>awesome</Vn> and{" "}
+        <Vn>powerful</Vn> it is.
       </L>
       <L git="blue">
         <Kw>So I followed</Kw> the mainstream and dedicated all my{" "}
-        <Vn>efforts</Vn> to become as good <Fn>web developer</Fn> as I can
+        <Vn>efforts</Vn> to become as good <Fn>product manager</Fn> as I can
         possibly be.
       </L>
     </CodeLikeBlock>
