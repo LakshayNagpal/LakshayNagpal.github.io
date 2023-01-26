@@ -41,20 +41,11 @@ const MainAppBarBase: React.FC<MainAppBarProps> = (props) => {
             />
           </Hidden>
           <Typography className={classes.myName} variant="subtitle1">
-            <Link to="/">Alex Zinkevych</Link>
+            <Link to="/">Lakshay Nagpal</Link>
           </Typography>
           <Hidden smDown>
             <a
-              href="https://github.com/alexeychikk"
-              target="_blank"
-              rel="external nofollow"
-            >
-              <IconButton aria-label="GitHub">
-                <GitHub />
-              </IconButton>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/alex-zinkevych/"
+              href="https://www.linkedin.com/in/lakshaynagpal/"
               target="_blank"
               rel="external nofollow"
             >
@@ -62,9 +53,18 @@ const MainAppBarBase: React.FC<MainAppBarProps> = (props) => {
                 <LinkedIn />
               </IconButton>
             </a>
-            <a href="mailto:alexdarkmm@gmail.com" target="_blank">
+            <a href="mailto:k72.lakshay@gmail.com" target="_blank">
               <IconButton aria-label="E-Mail">
                 <MailOutlineRounded />
+              </IconButton>
+            </a>
+            <a
+              href="https://github.com/LakshayNagpal"
+              target="_blank"
+              rel="external nofollow"
+            >
+              <IconButton aria-label="GitHub">
+                <GitHub />
               </IconButton>
             </a>
           </Hidden>

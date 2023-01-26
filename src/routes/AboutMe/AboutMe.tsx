@@ -69,20 +69,30 @@ export const AboutMe: React.FC = () => {
         <Kw>I started</Kw> coding when I was a <Sl>teenager</Sl>.
       </L>
       <L>
-        <Kw>My</Kw> first <Vn>programming language</Vn> was <Fn>C++</Fn>.
+        <Kw>My</Kw> first <Vn>programming language</Vn> was <Fn>C</Fn>.
       </L>
       <L>
-        <Kw>Then</Kw> I learned <Fn>C#</Fn> and started writing simple{" "}
+        <Kw>Then</Kw> I learned <Fn>C++</Fn> and started writing simple{" "}
         <Vn>games</Vn> for fun.
       </L>
+
+      <Br />
 
       <Br />
 
       <L git="blue">
         <Kw>But one day</Kw>, all the cool guys started talking about{" "}
         <Fn>Product Management</Fn> and how <Vn>awesome</Vn> and{" "}
-        <Vn>powerful</Vn> it is.
+        <Vn>impactful</Vn> it is.
       </L>
+
+      <L git="blue">
+        Then I <Kw> worked in a startup named LEAF Wearables</Kw> and then
+        <Vn> co-founded one of my own startup </Vn> where I explored
+        <Fn>Product Management</Fn> in depth and realized I'm the{" "}
+        <Vn>perfect fit</Vn>
+      </L>
+
       <L git="blue">
         <Kw>So I followed</Kw> the mainstream and dedicated all my{" "}
         <Vn>efforts</Vn> to become as good <Fn>product manager</Fn> as I can

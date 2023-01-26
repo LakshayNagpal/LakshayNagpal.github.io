@@ -12,7 +12,7 @@ export const Contacts: React.FC = () => {
   return (
     <CodeLikeBlock>
       <L>
-        <Kw>Currently</Kw> I live in <Sl>Kyiv</Sl>, Ukraine.
+        <Kw>Currently</Kw> I live in <Sl>Kyiv</Sl>, Delhi, India.
       </L>
       <IfHirable>
         <L active git="green">
@@ -21,8 +21,8 @@ export const Contacts: React.FC = () => {
       </IfHirable>
       <IfNotHirable>
         <L git="blue">
-          <Kw>I lived</Kw> in <Sl>Israel</Sl> for several years, but decided to
-          return back to Ukraine.
+          <Kw>I lived</Kw> in <Sl>Calcutta</Sl> for several months, but decided
+          to return back to Delhi, my hometown.
         </L>
       </IfNotHirable>
 
@@ -30,28 +30,28 @@ export const Contacts: React.FC = () => {
 
       <div className={classes.mapWrapper}>
         <L className={classes.map}>
-          <GoogleMap address="Kyiv" title="My Location" />
+          <GoogleMap address="Delhi" title="My Location" />
         </L>
 
         <div className={classes.contactInfo}>
-          <LinkLine label="E-mail" to="mailto:alexdarkmm@gmail.com" external>
-            alexdarkmm@gmail.com
+          <LinkLine label="E-mail" to="mailto:k72.lakshay@gmail.com" external>
+            k72.lakshay@gmail.com
           </LinkLine>
           <LinkLine
             label="LinkedIn"
-            to="https://www.linkedin.com/in/alex-zinkevych/"
+            to="https://www.linkedin.com/in/lakshaynagpal/"
             hasLinkIcon
             external
           >
-            Alex Zinkevych
+            Lakshay Nagpal
           </LinkLine>
           <LinkLine
             label="GitHub"
-            to="https://github.com/alexeychikk"
+            to="https://github.com/LakshayNagpal"
             hasLinkIcon
             external
           >
-            alexeychikk
+            LakshayNagpal
           </LinkLine>
           <Br />
         </div>
