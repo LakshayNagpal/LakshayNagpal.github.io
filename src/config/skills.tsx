@@ -283,19 +283,19 @@ const skills = (<T extends any>(t: readonly SkillBase<T>[]) => t)([
   },
   {
     id: "CPlusPlus",
-    categoryId: "Tools",
+    categoryId: "Languages",
     name: "C++",
     icon: CPlusPlus,
   },
   {
     id: "Javascript",
-    categoryId: "Tools",
+    categoryId: "Languages",
     name: "Javascript",
     icon: Javascript,
   },
   {
     id: "Java",
-    categoryId: "Tools",
+    categoryId: "Languages",
     name: "Java",
     icon: Java,
   },

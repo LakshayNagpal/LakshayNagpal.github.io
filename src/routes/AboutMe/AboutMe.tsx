@@ -89,9 +89,9 @@ export const AboutMe: React.FC = () => {
       <L git="blue">
         To learn these skills, I <Kw> worked in a startup</Kw>, then
         <Vn> co-founded one of my own startup </Vn>{" "}
-        <Sl> and further completed my MBA in product management</Sl>
-        where I explored <Fn> Product Management</Fn> in depth and realized I'm
-        the <Vn>perfect fit for it.</Vn>
+        <Sl> and further completed my MBA in Product Management </Sl>
+        where I explored <Fn> PM concepts and implementation </Fn> in depth and
+        realized I'm the <Vn>perfect fit for it.</Vn>
       </L>
 
       <Br />
