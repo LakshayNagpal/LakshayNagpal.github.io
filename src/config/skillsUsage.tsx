@@ -43,8 +43,6 @@ export const SKILLS_USAGE: JobSkills[] = [
       "B2C",
       "Telecom",
       "Python",
-      { id: "Javascript", experienceInMonths: 9 },
-      { id: "Java", experienceInMonths: 6 },
       "Jupyter",
     ],
   },

@@ -154,7 +154,7 @@ const skills = (<T extends any>(t: readonly SkillBase<T>[]) => t)([
   {
     id: "PRD",
     categoryId: "Skills",
-    name: "Product Requirement Document",
+    name: "PRDs",
     icon: PRD,
   },
   {

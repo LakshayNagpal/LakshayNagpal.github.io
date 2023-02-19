@@ -11,6 +11,7 @@ export interface Company {
 export enum Position {
   DataScience = "Data Scientist",
   ProdMan = "Product Manager",
+  Mentorship = "Mentor",
 }
 
 interface ExperienceBase<Id = string> {
@@ -75,7 +76,7 @@ export const EXPERIENCE = (<T extends any>(t: readonly ExperienceBase<T>[]) =>
     },
     dateFrom: new Date(Date.UTC(2020, 0)),
     dateTo: new Date(Date.now()),
-    position: Position.ProdMan,
+    position: Position.Mentorship,
   },
 ] as const);
 

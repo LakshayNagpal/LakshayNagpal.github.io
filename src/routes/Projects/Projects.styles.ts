@@ -23,7 +23,7 @@ export const useStyles = makeStyles((theme) =>
       width: "1.2em",
       height: "1.2em",
       display: "inline",
-      marginBottom: "-0.25em",
+      marginBottom: "0.25em",
     },
   })
 );
