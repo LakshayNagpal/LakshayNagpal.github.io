@@ -47,6 +47,37 @@ import { ReactComponent as WebStormIcon } from "~/assets/icons/webstorm.svg";
 import { ReactComponent as FolderDocsIcon } from "~/assets/icons/folder-docs-open.svg";
 import { ReactComponent as ReadmeIcon } from "~/assets/icons/readme.svg";
 
+import { ReactComponent as ABTesting } from "~/assets/icons/ABTesting.svg";
+import { ReactComponent as Agile } from "~/assets/icons/Agile.svg";
+import { ReactComponent as B2C } from "~/assets/icons/B2C.svg";
+import { ReactComponent as CompetitiveAnalysis } from "~/assets/icons/CompetitiveAnalysis.svg";
+import { ReactComponent as CustomerCentric } from "~/assets/icons/CustomerCentric.svg";
+import { ReactComponent as DataAnalysis } from "~/assets/icons/DataAnalysis.svg";
+import { ReactComponent as DataDriven } from "~/assets/icons/DataDriven.svg";
+import { ReactComponent as DesignPattern } from "~/assets/icons/DesignPattern.svg";
+import { ReactComponent as GIT } from "~/assets/icons/GIT.svg";
+import { ReactComponent as Healthcare } from "~/assets/icons/Healthcare.svg";
+import { ReactComponent as MarketResearch } from "~/assets/icons/MarketResearch.svg";
+import { ReactComponent as PRD } from "~/assets/icons/PRD.svg";
+import { ReactComponent as Prioritization } from "~/assets/icons/Prioritization.svg";
+import { ReactComponent as ProductRoadmap } from "~/assets/icons/ProductRoadmap.svg";
+import { ReactComponent as Programmer } from "~/assets/icons/Programmer.svg";
+import { ReactComponent as StoryTelling } from "~/assets/icons/StoryTelling.svg";
+import { ReactComponent as UX } from "~/assets/icons/UX.svg";
+
+import { ReactComponent as Telecom } from "~/assets/icons/Telecom.svg";
+import { ReactComponent as Azure } from "~/assets/icons/Azure.svg";
+import { ReactComponent as Ecommerce } from "~/assets/icons/Ecommerce.svg";
+import { ReactComponent as B2B } from "~/assets/icons/B2B.svg";
+import { ReactComponent as Figma } from "~/assets/icons/Figma.svg";
+import { ReactComponent as Sketch } from "~/assets/icons/Sketch.svg";
+import { ReactComponent as Jupyter } from "~/assets/icons/Jupyter.svg";
+import { ReactComponent as Python } from "~/assets/icons/Python.svg";
+import { ReactComponent as CPlusPlus } from "~/assets/icons/CPlusPlus.svg";
+import { ReactComponent as Javascript } from "~/assets/icons/Javascript.svg";
+import { ReactComponent as Java } from "~/assets/icons/Java.svg";
+import { ReactComponent as DataScience } from "~/assets/icons/DataScience.svg";
+
 interface SkillCategoryBase<Id = string> {
   id: Id;
   name: React.ReactNode;
@@ -56,24 +87,24 @@ interface SkillCategoryBase<Id = string> {
 const skillCategories = (<T extends any>(t: readonly SkillCategoryBase<T>[]) =>
   t)([
   {
-    id: "Languages",
-    name: "Languages",
+    id: "Skills",
+    name: "Skills",
     icon: FolderFunctionsIcon,
   },
   {
-    id: "FrontEnd",
-    name: "Front End",
+    id: "Domains",
+    name: "Domains",
     icon: FolderClientIcon,
-  },
-  {
-    id: "BackEnd",
-    name: "Back End",
-    icon: FolderServerIcon,
   },
   {
     id: "Tools",
     name: "Tools",
     icon: FolderToolsIcon,
+  },
+  {
+    id: "Languages",
+    name: "Languages",
+    icon: FolderFunctionsIcon,
   },
   {
     id: "Knowledge",
@@ -107,148 +138,187 @@ interface SkillBase<Id = string> {
 }
 
 const skills = (<T extends any>(t: readonly SkillBase<T>[]) => t)([
-  // Languages
+  // Skills
   {
-    id: "JavaScript",
-    categoryId: "Languages",
-    name: "JavaScript",
-    icon: JSIcon,
+    id: "MarketResearch",
+    categoryId: "Skills",
+    name: "Market Research",
+    icon: MarketResearch,
   },
   {
-    id: "TypeScript",
-    categoryId: "Languages",
-    name: "TypeScript",
-    icon: TSIcon,
+    id: "ProductRoadmap",
+    categoryId: "Skills",
+    name: "Product Roadmap",
+    icon: ProductRoadmap,
   },
   {
-    id: "CSharp",
-    categoryId: "Languages",
-    name: "C#",
-    hint: "(background)",
-    icon: CSharpIcon,
+    id: "PRD",
+    categoryId: "Skills",
+    name: "Product Requirement Document",
+    icon: PRD,
   },
   {
-    id: "CoffeeScript",
-    categoryId: "Languages",
-    name: "CoffeeScript",
-    hint: "(background)",
-    icon: CoffeeScriptIcon,
-  },
-  // FrontEnd
-  {
-    id: "React",
-    categoryId: "FrontEnd",
-    name: "React",
-    icon: ReactIcon,
+    id: "DataDriven",
+    categoryId: "Skills",
+    name: "Data Driven",
+    icon: DataDriven,
   },
   {
-    id: "Redux",
-    categoryId: "FrontEnd",
-    name: "Redux",
-    hint: "(reselect, recompose)",
-    icon: ReduxIcon,
+    id: "CustomerCentric",
+    categoryId: "Skills",
+    name: "Customer Centric",
+    icon: CustomerCentric,
   },
   {
-    id: "MaterialUI",
-    categoryId: "FrontEnd",
-    name: "Material UI",
-    icon: MaterialUiIcon,
-  },
-  { id: "HTML", categoryId: "FrontEnd", name: "HTML", icon: HtmlIcon },
-  { id: "CSS", categoryId: "FrontEnd", name: "CSS", icon: CssIcon },
-  { id: "SASS", categoryId: "FrontEnd", name: "SASS", icon: SassIcon },
-  { id: "CSSinJS", categoryId: "FrontEnd", name: "CSS in JS", icon: JssIcon },
-  { id: "Gatsby", categoryId: "FrontEnd", name: "Gatsby", icon: GatsbyIcon },
-  { id: "GraphQL", categoryId: "FrontEnd", name: "GraphQL", icon: GraphqlIcon },
-  {
-    id: "NetlifyCMS",
-    categoryId: "FrontEnd",
-    name: "Netlify CMS",
-    icon: NetlifyIcon,
+    id: "Prioritization",
+    categoryId: "Skills",
+    name: "Prioritization",
+    icon: Prioritization,
   },
   {
-    id: "Storybook",
-    categoryId: "FrontEnd",
-    name: "Storybook",
-    icon: StorybookIcon,
+    id: "CompetitiveAnalysis",
+    categoryId: "Skills",
+    name: "Competitive Analysis",
+    icon: CompetitiveAnalysis,
   },
   {
-    id: "Angular",
-    categoryId: "FrontEnd",
-    name: "Angular",
-    hint: "(background)",
-    icon: AngularIcon,
-  },
-  // BackEnd
-  { id: "NodeJS", categoryId: "BackEnd", name: "Node.js", icon: NodeJsIcon },
-  { id: "NestJS", categoryId: "BackEnd", name: "NestJS", icon: NestJsIcon },
-  { id: "Express", categoryId: "BackEnd", name: "Express", icon: ExpressIcon },
-  { id: "Fastify", categoryId: "BackEnd", name: "Fastify", icon: FastifyIcon },
-  {
-    id: "SocketIO",
-    categoryId: "BackEnd",
-    name: "Socket.io",
-    icon: SocketIoIcon,
-  },
-  { id: "MongoDB", categoryId: "BackEnd", name: "MongoDB", icon: MongoDBIcon },
-  {
-    id: "Redis",
-    categoryId: "BackEnd",
-    name: "Redis",
-    icon: RedisIcon,
+    id: "Agile",
+    categoryId: "Skills",
+    name: "Agile Methodology",
+    icon: Agile,
   },
   {
-    id: "PostgreSQL",
-    categoryId: "BackEnd",
-    name: "PostgreSQL",
-    hint: "(background)",
-    icon: PostgreSqlIcon,
+    id: "StoryTelling",
+    categoryId: "Skills",
+    name: "Story Telling",
+    icon: StoryTelling,
   },
   {
-    id: "AWS",
-    categoryId: "BackEnd",
-    name: "AWS",
-    hint: "(SQS, S3, SNS)",
-    icon: AWSIcon,
+    id: "DataAnalysis",
+    categoryId: "Skills",
+    name: "Data Analysis",
+    icon: DataAnalysis,
   },
   {
-    id: "Docker",
-    categoryId: "BackEnd",
-    name: "Docker",
-    hint: "(background)",
-    icon: DockerIcon,
+    id: "ABTesting",
+    categoryId: "Skills",
+    name: "AB Testing",
+    icon: ABTesting,
   },
   {
-    id: "Kubernetes",
-    categoryId: "BackEnd",
-    name: "Kubernetes",
-    hint: "(fundamentals)",
-    icon: KubernetesIcon,
+    id: "Programmer",
+    categoryId: "Skills",
+    name: "Coder / Programmer",
+    icon: Programmer,
+  },
+  // Domain
+  {
+    id: "B2C",
+    categoryId: "Domains",
+    name: "B2C",
+    icon: B2C,
+  },
+  {
+    id: "Healthcare",
+    categoryId: "Domains",
+    name: "Healthcare",
+    hint: "(NGO)",
+    icon: Healthcare,
+  },
+  {
+    id: "Telecom",
+    categoryId: "Domains",
+    name: "Telecom",
+    icon: Telecom,
+  },
+  {
+    id: "Azure",
+    categoryId: "Domains",
+    name: "Cloud Services - Azure",
+    icon: Azure,
+  },
+  {
+    id: "Ecommerce",
+    categoryId: "Domains",
+    name: "E-Commerce",
+    icon: Ecommerce,
+  },
+  {
+    id: "B2B",
+    categoryId: "Domains",
+    name: "B2B",
+    icon: B2B,
   },
   // Tools
-  { id: "Git", categoryId: "Tools", name: "Git", icon: GitIcon },
-  { id: "GitlabCI", categoryId: "Tools", name: "Gitlab CI", icon: GitlabIcon },
-  { id: "Jest", categoryId: "Tools", name: "Jest", icon: JestIcon },
-  { id: "Cypress", categoryId: "Tools", name: "Cypress", icon: CypressIcon },
-  { id: "Sentry", categoryId: "Tools", name: "Sentry", icon: SentryIcon },
-  { id: "Webpack", categoryId: "Tools", name: "Webpack", icon: WebpackIcon },
-  { id: "i18n", categoryId: "Tools", name: "i18n", icon: I18nIcon },
-  { id: "VSCode", categoryId: "Tools", name: "VS Code", icon: VsCodeIcon },
-  { id: "WebStorm", categoryId: "Tools", name: "WebStorm", icon: WebStormIcon },
-  // Knowledge
-  { id: "OOP", categoryId: "Knowledge", name: "OOP", icon: ReadmeIcon },
   {
-    id: "FP",
-    categoryId: "Knowledge",
-    name: "Functional Programming",
-    icon: ReadmeIcon,
+    id: "GIT",
+    categoryId: "Tools",
+    name: "GIT",
+    icon: GIT,
   },
-  { id: "TDD", categoryId: "Knowledge", name: "TDD", icon: ReadmeIcon },
   {
-    id: "DesignPatterns",
+    id: "Figma",
+    categoryId: "Tools",
+    name: "Figma",
+    icon: Figma,
+  },
+  {
+    id: "Sketch",
+    categoryId: "Tools",
+    name: "Sketch",
+    icon: Sketch,
+  },
+  {
+    id: "Jupyter",
+    categoryId: "Tools",
+    name: "Jupyter Notebooks",
+    icon: Jupyter,
+  },
+  // Languages
+  {
+    id: "Python",
+    categoryId: "Languages",
+    name: "Python",
+    icon: Python,
+  },
+  {
+    id: "CPlusPlus",
+    categoryId: "Tools",
+    name: "C++",
+    icon: CPlusPlus,
+  },
+  {
+    id: "Javascript",
+    categoryId: "Tools",
+    name: "Javascript",
+    icon: Javascript,
+  },
+  {
+    id: "Java",
+    categoryId: "Tools",
+    name: "Java",
+    icon: Java,
+  },
+
+  // Knowledge
+
+  {
+    id: "UX",
+    categoryId: "Knowledge",
+    name: "UX",
+    icon: UX,
+  },
+  {
+    id: "DataScience",
+    categoryId: "Knowledge",
+    name: "Data Science",
+    icon: DataScience,
+  },
+  {
+    id: "DesignPattern",
     categoryId: "Knowledge",
     name: "Design Patterns",
-    icon: ReadmeIcon,
+    icon: DesignPattern,
   },
 ] as const);
 

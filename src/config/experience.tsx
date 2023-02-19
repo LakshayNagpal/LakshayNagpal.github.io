@@ -49,7 +49,7 @@ export const EXPERIENCE = (<T extends any>(t: readonly ExperienceBase<T>[]) =>
         <>
           Designed a model to predict where the next airtel tower needs to be
           setup using
-          <Fn>Semantic Segmentation & Greedy Algorithms</Fn> with precise
+          <Fn> Semantic Segmentation & Greedy Algorithms</Fn> with precise
           latitude, longitude and angle to maximise the ARPU and area coverage
           for customers latched to the tower.
         </>
@@ -67,7 +67,7 @@ export const EXPERIENCE = (<T extends any>(t: readonly ExperienceBase<T>[]) =>
       description: (
         <>
           I mentor students in the areas of{" "}
-          <Fn> Data Analysis, Product Management and Data Structures</Fn>
+          <Fn> Data Analysis, Product Management and Data Structures </Fn>
           and help them kickstart or refine their skills in the respective
           areas.
         </>
@@ -83,4 +83,6 @@ export type ExperienceId = typeof EXPERIENCE[number]["id"];
 
 export type Experience = ExperienceBase<ExperienceId>;
 
-export const IS_HIRABLE = true; // !!EXPERIENCE[0].dateTo;
+// Change the below variable for the hiring statement of job opportunities on the About section
+
+export const IS_HIRABLE = false; // !!EXPERIENCE[0].dateTo;
