@@ -3,12 +3,12 @@ import { createStyles, makeStyles } from "@material-ui/core";
 export const useStyles = makeStyles((theme) =>
   createStyles({
     icon: {
-      width: "24px",
-      height: "24px",
+      width: "20px",
+      height: "20px",
       marginRight: theme.spacing(1.5),
     },
     listItem: {
-      padding: 0,
+      padding: theme.spacing(1.5),
     },
     link: {
       width: "100%",

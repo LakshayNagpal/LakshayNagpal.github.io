@@ -20,10 +20,10 @@ export const useStyles = makeStyles((theme) =>
       color: theme.palette.text.primary,
     },
     skillIcon: {
-      width: "1.2em",
-      height: "1.2em",
+      width: "1em",
+      height: "1em",
       display: "inline",
-      marginBottom: "0.25em",
+      marginBottom: "-0.25em",
     },
   })
 );
