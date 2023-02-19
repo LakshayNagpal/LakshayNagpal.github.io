@@ -9,9 +9,8 @@ export interface Company {
 }
 
 export enum Position {
-  FrontEnd = "Front-end Developer",
-  BackEnd = "Back-end Developer",
-  FullStack = "Full-stack Developer",
+  DataScience = "Data Scientist",
+  ProdMan = "Product Manager",
 }
 
 interface ExperienceBase<Id = string> {
@@ -25,72 +24,41 @@ interface ExperienceBase<Id = string> {
 export const EXPERIENCE = (<T extends any>(t: readonly ExperienceBase<T>[]) =>
   t)([
   {
-    id: "Perimeter81",
+    id: "Microsoft",
     company: {
-      name: "Perimeter 81",
+      name: "Microsoft",
       description: (
         <>
-          <Fn>Zero Trust Network as a Service</Fn> designed to simplify secure
-          network, cloud and application access for the modern and distributed
-          workforce.
+          <Fn>Managing Deployments in Azure (including chatGPT deployments)</Fn>{" "}
+          - I am looking at the Planned Maintenance, Fleet Completion and the
+          Azure Update Management Tool area which keeps the VMs running in Azure
+          updated to the latest and greatest.
         </>
       ),
-      link: "https://www.linkedin.com/company/perimeter-81/",
+      link: "https://www.linkedin.com/company/microsoft/",
     },
-    dateFrom: new Date(Date.UTC(2020, 10)),
-    dateTo: new Date(Date.UTC(2021, 7)),
-    position: Position.BackEnd,
+    dateFrom: new Date(Date.UTC(2022, 4)),
+    dateTo: new Date(Date.now()),
+    position: Position.ProdMan,
   },
   {
-    id: "Trucknet",
+    id: "Airtel",
     company: {
-      name: "Trucknet Enterprise LTD",
+      name: "Airtel",
       description: (
         <>
-          Cloud based <Fn>transport optimization platform</Fn> that utilizes
-          smart freight exchange to improve efficiency & profitability.
+          Designed a model to predict where the next airtel tower needs to be
+          setup using
+          <Fn>Semantic Segmentation & Greedy Algorithms</Fn> with precise
+          latitude, longitude and angle to maximise the ARPU and area coverage
+          for customers latched to the tower.
         </>
       ),
-      link: "https://www.linkedin.com/company/busnet-&-trucknet/",
-    },
-    dateFrom: new Date(Date.UTC(2019, 0)),
-    dateTo: new Date(Date.UTC(2020, 5)),
-    position: Position.FullStack,
-  },
-  {
-    id: "Siteplus",
-    company: {
-      name: "Siteplus Pte LTD",
-      description: (
-        <>
-          <Fn>B2B website builder</Fn> that features Drag & Drop / WYSIWYG
-          editor, responsive grid, hundreds of templates, content blocks, online
-          store and more.
-        </>
-      ),
-      link: "https://www.linkedin.com/company/siteplus-pte-ltd/about/",
+      link: "https://www.linkedin.com/company/airtel/",
     },
     dateFrom: new Date(Date.UTC(2017, 7)),
-    dateTo: new Date(Date.UTC(2018, 7)),
-    position: Position.FrontEnd,
-  },
-  {
-    id: "DevsterLab",
-    company: {
-      name: "Devster Lab",
-      description: (
-        <>
-          An <Fn>outsourcing company</Fn>, but also a team of friends -
-          programmers, designers, dreamers, and innovators - who understand
-          business. Working at this company felt like being at home with my{" "}
-          <Sl>family</Sl>.
-        </>
-      ),
-      link: "https://www.linkedin.com/company/devster-lab/about/",
-    },
-    dateFrom: new Date(Date.UTC(2016, 1)),
-    dateTo: new Date(Date.UTC(2017, 7)),
-    position: Position.FrontEnd,
+    dateTo: new Date(Date.UTC(2020, 6)),
+    position: Position.DataScience,
   },
   {
     id: "Freelancer",
@@ -98,15 +66,16 @@ export const EXPERIENCE = (<T extends any>(t: readonly ExperienceBase<T>[]) =>
       name: "Freelancer",
       description: (
         <>
-          During this period of my life I worked on various{" "}
-          <Fn>projects for the university</Fn> I studied in. This kick-started
-          my career as a web developer.
+          I mentor students in the areas of{" "}
+          <Fn> Data Analysis, Product Management and Data Structures</Fn>
+          and help them kickstart or refine their skills in the respective
+          areas.
         </>
       ),
     },
-    dateFrom: new Date(Date.UTC(2015, 0)),
-    dateTo: new Date(Date.UTC(2016, 0)),
-    position: Position.FullStack,
+    dateFrom: new Date(Date.UTC(2020, 0)),
+    dateTo: new Date(Date.now()),
+    position: Position.ProdMan,
   },
 ] as const);
 
@@ -114,4 +83,4 @@ export type ExperienceId = typeof EXPERIENCE[number]["id"];
 
 export type Experience = ExperienceBase<ExperienceId>;
 
-export const IS_HIRABLE = false; // !!EXPERIENCE[0].dateTo;
+export const IS_HIRABLE = true; // !!EXPERIENCE[0].dateTo;

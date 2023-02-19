@@ -12,21 +12,21 @@ export const EDUCATION = (<T extends any>(t: readonly EducationBase<T>[]) => t)(
   [
     {
       id: "University",
-      name: `Open International University of Human Development "Ukraine"`,
-      field: "Software Engineering",
-      degree: "Master's degree",
-      grade: "93",
-      dateFrom: new Date(Date.UTC(2014, 8)),
-      dateTo: new Date(Date.UTC(2016, 7)),
+      name: `Indian Institute of Management (IIM) Calcutta"`,
+      field: "Product Management",
+      degree: "MBA degree",
+      grade: "6.3 (by the nine-point system)",
+      dateFrom: new Date(Date.UTC(2020, 7)),
+      dateTo: new Date(Date.UTC(2022, 2)),
     },
     {
       id: "College",
-      name: `Industrial and Economic College of National Aviation University`,
-      field: "Software Engineering",
-      degree: "Associate's degree",
-      grade: "5 (by the five-point system)",
-      dateFrom: new Date(Date.UTC(2010, 8)),
-      dateTo: new Date(Date.UTC(2014, 7)),
+      name: `Delhi Technological University (Formerly Delhi College of Engineering)`,
+      field: "Electrical Engineering",
+      degree: "B.TECH",
+      grade: "8.1 (by the ten-point system)",
+      dateFrom: new Date(Date.UTC(2013, 7)),
+      dateTo: new Date(Date.UTC(2017, 3)),
     },
   ] as const
 );

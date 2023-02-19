@@ -14,11 +14,11 @@ export const Education: React.FC = () => {
       <TimelineItem
         title="Life"
         subtitle="Self Education"
-        dateFrom={new Date(Date.UTC(1995, 1))}
+        dateFrom={new Date(Date.UTC(1995, 9))}
       >
         I am curious about the world and the way it works. I always try to learn
         something new every day no matter whether it is about programming,
-        science, technology or music.
+        product, science, technology, music or mythology
       </TimelineItem>
 
       {EDUCATION.map((edu) => (

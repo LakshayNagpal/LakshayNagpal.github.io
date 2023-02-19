@@ -12,7 +12,7 @@ export const Contacts: React.FC = () => {
   return (
     <CodeLikeBlock>
       <L>
-        <Kw>Currently</Kw> I live in <Sl>Kyiv</Sl>, Delhi, India.
+        <Kw>Currently</Kw> I live in <Sl>Delhi</Sl>, India.
       </L>
       <IfHirable>
         <L active git="green">
@@ -21,8 +21,8 @@ export const Contacts: React.FC = () => {
       </IfHirable>
       <IfNotHirable>
         <L git="blue">
-          <Kw>I lived</Kw> in <Sl>Calcutta</Sl> for several months, but decided
-          to return back to Delhi, my hometown.
+          <Kw>I lived</Kw> in <Sl>Calcutta</Sl> for several months for my MBA,
+          but decided to return back to Delhi, my hometown.
         </L>
       </IfNotHirable>
 

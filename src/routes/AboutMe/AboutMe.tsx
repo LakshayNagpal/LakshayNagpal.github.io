@@ -87,11 +87,14 @@ export const AboutMe: React.FC = () => {
       </L>
 
       <L git="blue">
-        Then I <Kw> worked in a startup named LEAF Wearables</Kw> and then
-        <Vn> co-founded one of my own startup </Vn> where I explored
-        <Fn>Product Management</Fn> in depth and realized I'm the{" "}
-        <Vn>perfect fit</Vn>
+        To learn these skills, I <Kw> worked in a startup</Kw>, then
+        <Vn> co-founded one of my own startup </Vn>{" "}
+        <Sl> and further completed my MBA in product management</Sl>
+        where I explored <Fn> Product Management</Fn> in depth and realized I'm
+        the <Vn>perfect fit for it.</Vn>
       </L>
+
+      <Br />
 
       <L git="blue">
         <Kw>So I followed</Kw> the mainstream and dedicated all my{" "}
