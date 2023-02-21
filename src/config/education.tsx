@@ -12,7 +12,7 @@ export const EDUCATION = (<T extends any>(t: readonly EducationBase<T>[]) => t)(
   [
     {
       id: "University",
-      name: `Indian Institute of Management (IIM) Calcutta"`,
+      name: `Indian Institute of Management (IIM) Calcutta`,
       field: "Product Management",
       degree: "MBA degree",
       grade: "6.3 (by the nine-point system)",

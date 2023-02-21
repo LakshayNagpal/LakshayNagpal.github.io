@@ -86,4 +86,4 @@ export type Experience = ExperienceBase<ExperienceId>;
 
 // Change the below variable for the hiring statement of job opportunities on the About section
 
-export const IS_HIRABLE = false; // !!EXPERIENCE[0].dateTo;
+export const IS_HIRABLE = true; // !!EXPERIENCE[0].dateTo;
